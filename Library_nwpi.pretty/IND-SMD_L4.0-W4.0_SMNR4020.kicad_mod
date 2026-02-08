@@ -1,0 +1,172 @@
+(footprint "IND-SMD_L4.0-W4.0_SMNR4020"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "adfc5fc7-5cda-4af0-8c49-fb19acc45358")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMNR4020-4R7MT"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "b3f2c967-f87b-4f6e-a8a0-caebd5f5d43e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/Power-Inductors_SXN-Shun-Xiang-Nuo-Elec-SMNR4020-4R7MT_C467061.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb7c842f-29d9-47b8-8da9-2021d1f36c80")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fd4db8b-1d83-4d19-8ea2-72cb338576e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C467061"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75bef87b-17a1-4764-aa2b-929e3c74e813")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.1 -2.08)
+		(end 2.1 -2.08)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8180561-9903-4633-83db-65b0d28800bd")
+	)
+	(fp_line
+		(start -2.1 -1.91)
+		(end -2.1 -2.08)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cfcb9358-8c3f-4665-b812-71f1f61d3943")
+	)
+	(fp_line
+		(start -2.1 1.91)
+		(end -2.1 2.08)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6bd2138d-be8c-47b1-a382-d5832bbab4ad")
+	)
+	(fp_line
+		(start -2.1 2.08)
+		(end 2.1 2.08)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "642da88d-2131-4e77-97a3-1f38b5b88c85")
+	)
+	(fp_line
+		(start 2.1 -2.08)
+		(end 2.1 -1.91)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "412d0ba6-b9c7-4c88-a499-dbd342daf823")
+	)
+	(fp_line
+		(start 2.1 2.08)
+		(end 2.1 1.91)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45f1a4dc-8fbc-40ae-906d-12c5acaa8c1b")
+	)
+	(fp_circle
+		(center 2.02 -2)
+		(end 2.05 -2)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e014e07a-a4c9-4da1-b463-e95e54c4b163")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bd9672d6-151b-4579-829f-0311b428a2c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.93 0)
+		(size 1.87 3.52)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c1536fb6-ddd2-48f3-abd4-90a0f38a121c")
+	)
+	(pad "2" smd rect
+		(at -1.93 0)
+		(size 1.87 3.52)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "878878a6-2be9-4aba-9d3f-d160e21db607")
+	)
+	(embedded_fonts no)
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/IND-SMD_L4.0-W4.0-H2.0.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

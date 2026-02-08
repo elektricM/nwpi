@@ -1,0 +1,14 @@
+# KiCad backup/cache
+*-backups/
+fp-info-cache
+*.lck
+*.bak
+*~
+
+# macOS
+.DS_Store
+
+# Temporary
+*.plt
+DRC.*
+#auto_saved_files#

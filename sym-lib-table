@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Library_nwpi")(type "KiCad")(uri "${KIPRJMOD}/Library_nwpi.kicad_sym")(options "")(descr ""))
+)
